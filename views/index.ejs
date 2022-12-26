@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>User Registeration</h1>
+        <form action="/register" method="post">
+            <input type="text" name="name" placeholder="Name" />
+            <input type="text" name="username" placeholder="UsernName" />
+            <input type="email" name="email" placeholder="Email" />
+            <input type="password" name="password" placeholder="Password" />
+            <input type="number" name="phone" placeholder="phone" />
+            <button>Register</button>
+        </form>
+
+        <h1>User Login</h1>
+        <form action="/login" method="post">
+            <input type="text" name="username" placeholder="UsernName" />
+            <input type="password" name="password" placeholder="Password" />
+            <button>Login</button>
+        </form>
+
+        <h1>Forget Password</h1>
+        <form action="/forget" method="post">
+            <input type="text" name="username" placeholder="UsernName" />
+            <input type="password" name="password" placeholder="New Password" />
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
